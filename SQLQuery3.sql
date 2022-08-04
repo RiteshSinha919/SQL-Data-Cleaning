@@ -126,7 +126,7 @@ delete from ranking Where row_num > 1
 
 
 --Remove Unused columns
-Select * From PortfolioProject.dbo.NashvilleHousing
+Select * From Portfolio..Housing
 
-ALTER TABLE PortfolioProject.dbo.NashvilleHousing
+ALTER TABLE Portfolio..Housing
 DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
